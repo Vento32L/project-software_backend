@@ -1,0 +1,24 @@
+{
+  "name": "project-software_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vento32L/project-software_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vento32L/project-software_backend/issues"
+  },
+  "homepage": "https://github.com/Vento32L/project-software_backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.25.2"
+  }
+}
