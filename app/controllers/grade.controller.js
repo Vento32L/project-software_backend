@@ -1,5 +1,5 @@
 const dataModels = require('../models/grade.model')
-const dbconnection = require('../../database/dbconnection')
+//const dbconnection = require('../../database/dbconnection')
 
 function getGrades(req, res){
     dataModels.getGrades((data, error) => {
