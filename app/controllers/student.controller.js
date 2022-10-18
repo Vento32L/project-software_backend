@@ -1,5 +1,4 @@
 const dataModels = require('../models/student.model')
-//const dbconnection = require('../../database/dbconnection')
 
 function getStudents(req, res){
     dataModels.getStudents((data, error) => {
