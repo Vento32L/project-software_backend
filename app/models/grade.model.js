@@ -24,7 +24,7 @@ var dataModels ={
         }
     },
 
-    addUser : (data, callback) => {
+    addGrade : (data, callback) => {
         if(dbconnection) {
             let sql = `insert into grade (grad_name, grad_status) values (${dbconnection.escape(data.grad_name)}, 
             ${dbconnection.escape(data.grad_name)}, 
