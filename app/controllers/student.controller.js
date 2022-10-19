@@ -28,7 +28,7 @@ function addStudent(req, res){
         ${stud_phone}, 
         ${stud_contact_info}, 
         ${stud_gender}`)
-    dataModels.addStudent({student_name, 
+    dataModels.addStudent({stud_name, 
         stud_lastname, 
         stud_address, 
         stud_phone, 

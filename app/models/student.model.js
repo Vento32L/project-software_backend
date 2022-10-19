@@ -30,9 +30,9 @@ var dataModels = {
             ${dbconnection.escape(data.stud_name)},
             ${dbconnection.escape(data.stud_lastname)}, 
             ${dbconnection.escape(data.stud_address)}, 
-            ${connection.escape(data.stud_phone)}, 
-            ${connection.escape(data.stud_contact_info)}, 
-            ${connection.escape(data.stud_gener)})`
+            ${dbconnection.escape(data.stud_phone)}, 
+            ${dbconnection.escape(data.stud_contact_info)}, 
+            ${dbconnection.escape(data.stud_gender)})`
               
             dbconnection.query(sql, (error, rows) => {
                 if(error) throw error

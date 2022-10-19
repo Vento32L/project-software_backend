@@ -30,7 +30,7 @@ var dataModels ={
             ${dbconnection.escape(data.grad_name)}, 
             ${dbconnection.escape(data.grad_status)}`
 
-            connection.query(sql, (error, rows) => {
+            dbconnection.query(sql, (error, rows) => {
                 if(error) throw error
                 callback({message : 'embedded course'})
             })
