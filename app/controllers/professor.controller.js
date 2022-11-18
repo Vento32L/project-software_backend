@@ -1,14 +1,14 @@
-const dataModels = require('../models/student.model')
+/*const dataModels = require('../models/student.model')
 //const dbconnection = require('../../database/dbconnection')
 
-function getStudents(req, res){
-    dataModels.getStudents((data, error) => {
+function getProfessors(req, res){
+    dataModels.getProfessors((data, error) => {
         // 404 500
         res.json(data)
     })
 }
 
-function getOneStudent(req, res){
+function getOneProfessor(req, res){
     console.log("id : ", req.params)
     const { stud_id } = req.params
     dataModels.getOneStudent(stud_id, (data, error) => {
@@ -63,7 +63,7 @@ function deleteStudent(req, res){
     dataModels.deleteStudent(stud_id, (data, error) => {
         res.json(data)
     })
-}
+}*/
 
 module.exports={
     getStudents,
